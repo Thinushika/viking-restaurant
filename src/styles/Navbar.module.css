@@ -1,0 +1,35 @@
+.topbar {
+    background-color: var(--color-gray);
+    height: auto;
+    width: 100%;
+}
+.btnAll{
+    text-align: center;
+    font-size: 18.292px;
+    font-family: var(--font-josefin);
+    font-weight: 400;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.borderBtn {
+    border: 1.829px solid var(--color-gold);
+    color: #DEDEDE;
+    background-color: transparent;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+.borderBtn:hover{
+    background: var(--color-gold);
+    color: #292E36;
+}
+
+.filledBtn {
+    border: 1.829px solid var(--color-gold);
+    color: #292E36;
+    background: var(--color-gold);
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+.filledBtn:hover{
+    background: transparent;
+    color: #DEDEDE;
+}
