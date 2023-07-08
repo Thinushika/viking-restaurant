@@ -1,9 +1,15 @@
-.topbar {
+.topbar,
+.navbarDesign {
     background-color: var(--color-gray);
     height: auto;
     width: 100%;
 }
-.btnAll{
+.navbarDesign{
+    border-top: solid 1px #5C6168;
+    border-bottom: solid 1px #5C6168;
+}
+
+.btnAll {
     text-align: center;
     font-size: 18.292px;
     font-family: var(--font-josefin);
@@ -18,7 +24,8 @@
     background-color: transparent;
     transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
-.borderBtn:hover{
+
+.borderBtn:hover {
     background: var(--color-gold);
     color: #292E36;
 }
@@ -29,7 +36,30 @@
     background: var(--color-gold);
     transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
-.filledBtn:hover{
+
+.filledBtn:hover {
     background: transparent;
     color: #DEDEDE;
 }
+
+.navLink {
+    color: #DEDEDE;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    min-width: max-content !important;
+    transition: color 0.5s ease-in;
+}
+.navLink:hover{
+    color: var(--color-gold);
+}
+
+.svgLink svg path{
+    fill: #DEDEDE !important;
+    transition: fill 0.5s ease-in;
+}
+.svgLink:hover svg path{
+    fill: var(--color-gold) !important;
+}
+
