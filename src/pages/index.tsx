@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BrandSlider from "../components/home_components/Hero/Hero"
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="container-fluid p-0 m-0 bg-color-white">
-          <h1>123</h1>
+        <div className="container-fluid p-0 m-0">
+        <BrandSlider/>
         </div>
       </main>
     </>

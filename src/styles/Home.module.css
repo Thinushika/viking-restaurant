@@ -1,19 +1,71 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  
-  
-  /* Mobile */
-  @media (max-width: 700px) {
-    
-  }
-  
-  /* Tablet and Smaller Desktop */
-  @media (min-width: 701px) and (max-width: 1120px) {
-    
-  }
-  
-  
+  display: flex;
+  /* flex-direction: column;  */
+  min-height: 100vh;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
+
+/* hero component */
+.heroContainer {
+  display: flex;
+  background-color: #292e36;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
+}
+.mainTitle {
+  width: 400px;
+  color: wheat;
+}
+
+/* Check availability component */
+.checkCard {
+  display: flex;
+  background-color: #B9983B;
+  /* opacity: 0.6; */
+  margin: -50px 150px 0px 150px;
+  color: white;
+}
+.bookHolidays{
+  /* width: 150px; */
+  text-align: center;
+  padding: 10px;
+}
+.checkBtn{
+  /* width: 150px; */
+  text-align: center;
+  padding: 10px;
+}
+.promoCode{
+  text-align: center;
+  padding: 10px;
+}
+.checkOut{
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.checkIn {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.checkIn > div, .checkOut > div{
+  width: 130px;
+  height: 80px;
+  background-color: white;
+  color: black;
+}
+
