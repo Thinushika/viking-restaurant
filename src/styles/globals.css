@@ -67,3 +67,12 @@ a {
 /* .active-nav{
   color: var(--color-gold) !important;
 } */
+
+
+
+.font-comorant{
+  font-family: var(--font-cormorant) !important;
+}
+.font-josefin{
+  font-family: var(--font-josefin) !important;
+}

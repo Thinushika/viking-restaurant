@@ -4,26 +4,27 @@
   min-height: 100vh;
 }
 
-/* Mobile */
-@media (max-width: 700px) {
-}
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-}
 
 /* hero component */
 .heroContainer {
-  display: flex;
   background-color: #292e36;
-  height: 450px;
-  justify-content: center;
-  align-items: center;
-  padding-left: 400px;
+  height: 80vh !important;
+}
+.heroImage{
+  position:absolute;
+  width: 80% !important;
+  bottom: -90px;
+  right: 0;
 }
 .mainTitle {
-  width: 400px;
   color: wheat;
+}
+.heroContainer p{
+  font-size: 16px !important;
+}
+.heroContainer h1{
+  font-size: 4.2em !important;
 }
 
 /* Check availability component */
@@ -69,3 +70,15 @@
   color: black;
 }
 
+
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .heroContainer{
+    height: max-content !important;
+  }
+  .heroContainer h1{
+    font-size: 2.8em !important;
+  }
+}
