@@ -1,5 +1,8 @@
 import Head from "next/head";
-import BrandSlider from "../components/home_components/Hero/Hero"
+import Hero from "../components/home_components/Hero/Hero";
+import CheckAvailability from "@/components/home_components/check_availability/CheckAvailability";
+import ContactDetails from "@/components/home_components/contact_details";
+
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
       </Head>
       <main>
         <div className="container-fluid p-0 m-0">
-        <BrandSlider/>
+        <Hero/>
+        <CheckAvailability />
+        <ContactDetails />
         </div>
       </main>
     </>

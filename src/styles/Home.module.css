@@ -13,8 +13,10 @@
 }
 .heroImage{
   position:absolute;
-  width: 80% !important;
-  bottom: -90px;
+  /* width: 80% !important; */
+  height: 600px;
+  width: auto !important;
+  bottom: -104px;
   right: 0;
 }
 .mainTitle {
@@ -38,7 +40,7 @@
   color: white;
   margin-top: -50px;
   z-index: 3;
-  font-family: var(--font-cormorant) !important;
+  font-family: var(--font-bell-regular) !important;
 }
 .darkBox{
   background-color: #242323;
@@ -58,6 +60,8 @@
 .promoLink{
   color: #fff;
   transition: color 0.5s ease-in;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .promoLink:hover, .promoLink:focus{
   color: #000;
@@ -65,16 +69,29 @@
 
 
 
+.iconWrapper{
+  background-color: #292E36;
+  color: #fff;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 100%;
+  font-size: 35px;
+}
+
+.iconBox p{
+  font-size: 26px;
+  font-family: var(--font-cormorant) !important;
+  font-weight: 900;
+}
+.iconBox span{
+  font-size: 16px;
+  font-family: var(--font-josefin) !important;
+}
 
 
 @media screen and (max-width: 992px) {
   .checkCard {
-    display: flex;
-    background: rgb(185, 151, 59);
-    color: white;
     margin-top: 0px;
-    z-index: 3;
-    font-family: var(--font-cormorant) !important;
   }
 }
 /* Mobile */

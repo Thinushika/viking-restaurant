@@ -1,8 +1,7 @@
 import React from "react";
 import styles from '../../../styles/Home.module.css'
 import Image from 'next/image'
-import CheckAvailability from '../check_availability/CheckAvailability'
-const BrandSlider = () => {
+const Hero = () => {
     return (
         <>
         <div className={`hero_comp d-flex flex-column flex-lg-row px-2 px-lg-5 ${styles.heroContainer}`}>
@@ -31,11 +30,10 @@ const BrandSlider = () => {
                 />
             </div>
         </div>
-        <CheckAvailability />
         </>
 
 
     )
 
 }
-export default BrandSlider;
+export default Hero;
