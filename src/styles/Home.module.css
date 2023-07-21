@@ -27,52 +27,56 @@
   font-size: 4.2em !important;
 }
 
+
+
+
+
 /* Check availability component */
 .checkCard {
   display: flex;
-  background-color: #B9983B;
-  /* opacity: 0.6; */
-  margin: -50px 150px 0px 150px;
+  background: rgba(185, 152, 59, 0.80);
   color: white;
+  margin-top: -50px;
+  z-index: 3;
+  font-family: var(--font-cormorant) !important;
 }
-.bookHolidays{
-  /* width: 150px; */
-  text-align: center;
-  padding: 10px;
+.darkBox{
+  background-color: #242323;
 }
-.checkBtn{
-  /* width: 150px; */
-  text-align: center;
-  padding: 10px;
+.darkBox p{
+  color: #FFF !important;
+  font-weight: 700;
+  font-size: 20px;
 }
-.promoCode{
-  text-align: center;
-  padding: 10px;
+.darkBox span{
+  color: #977E35 !important;
+  font-weight: 600;
 }
-.checkOut{
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.promoText{
+  font-size: 14px;
 }
-.checkIn {
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.promoLink{
+  color: #fff;
+  transition: color 0.5s ease-in;
 }
-.checkIn > div, .checkOut > div{
-  width: 130px;
-  height: 80px;
-  background-color: white;
-  color: black;
+.promoLink:hover, .promoLink:focus{
+  color: #000;
 }
 
 
 
 
+
+@media screen and (max-width: 992px) {
+  .checkCard {
+    display: flex;
+    background: rgb(185, 151, 59);
+    color: white;
+    margin-top: 0px;
+    z-index: 3;
+    font-family: var(--font-cormorant) !important;
+  }
+}
 /* Mobile */
 @media screen and (max-width: 600px) {
   .heroContainer{

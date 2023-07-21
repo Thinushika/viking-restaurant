@@ -4,6 +4,7 @@ import Image from 'next/image'
 import CheckAvailability from '../check_availability/CheckAvailability'
 const BrandSlider = () => {
     return (
+        <>
         <div className={`hero_comp d-flex flex-column flex-lg-row px-2 px-lg-5 ${styles.heroContainer}`}>
             
             <div className="col-12 col-lg-6 d-flex d-lg-none justify-content-center align-items-center">
@@ -26,9 +27,12 @@ const BrandSlider = () => {
                     width={450}
                     height={400}
                     className={`img-fluid ${styles.heroImage}`}
+                    style={{zIndex: 1}}
                 />
             </div>
         </div>
+        <CheckAvailability />
+        </>
 
 
     )
