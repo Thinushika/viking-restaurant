@@ -191,6 +191,23 @@
   width: auto !important;
 }
 
+
+.imgGroupWrapper{
+  background: url('/assests/images/bg/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.imgGroup{
+  width: auto;
+  height: 560px;
+  position: absolute;
+}
+
+
 @media screen and (max-width: 992px) {
   .checkCard {
     margin-top: 0px;
@@ -203,5 +220,14 @@
   }
   .heroContainer h1{
     font-size: 2.8em !important;
+  }
+  .imgGroup{
+    width: 350px;
+    height: auto;
+  }
+  .imgGroupWrapper{
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 }

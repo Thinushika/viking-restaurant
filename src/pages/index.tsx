@@ -8,6 +8,7 @@ import Description2 from "@/components/home_components/desc_2";
 import Booking from "@/components/home_components/booking";
 import Footer from "@/components/Footer";
 import OurServices from "@/components/home_components/our_services";
+import ImgSec from "@/components/home_components/img_sec";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <CheckAvailability />
         <ContactDetails />
         <TheStory />
+        <ImgSec />
         <Descrioption />
         <OurServices />
         <Description2 />
