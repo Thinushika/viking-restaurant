@@ -22,7 +22,7 @@ const ContactDetails = () => {
                 </div>
             </div>
             <div className="col-12 col-lg-4 d-flex flex-column justify-content-start justify-content-lg-center align-items-start align-items-lg-center py-3 ">
-                <div className={`d-flex flex-row ${styles.iconBox} align-items-center`}>
+                <div className={`d-flex flex-row ${styles.iconBox} align-items-center px-0 px-md-5 px-lg-0`}>
                     <div className={`${styles.iconWrapper} col-4 d-flex justify-content-center align-items-center`}>
                         <IoIosTimer />
                     </div>
@@ -33,7 +33,7 @@ const ContactDetails = () => {
                 </div>
             </div>
             <div className="col-12 col-lg-4 d-flex flex-column justify-content-start justify-content-lg-center align-items-start align-items-lg-center py-3 ">
-                <div className={`d-flex flex-row ${styles.iconBox} align-items-center`}>
+                <div className={`d-flex flex-row ${styles.iconBox} align-items-center px-0 px-md-5 px-lg-0`}>
                     <div className={`${styles.iconWrapper} col-4 d-flex justify-content-center align-items-center`}>
                         <FaClipboardList />
                     </div>

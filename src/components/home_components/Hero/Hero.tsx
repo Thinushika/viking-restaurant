@@ -15,9 +15,9 @@ const Hero = () => {
                     className="img-fluid mt-5"
                 />
             </div>
-            <div className="col-12 col-lg-6 px-0 px-lg-5 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-12 col-lg-6 px-0 px-md-5 d-flex flex-column justify-content-center align-items-center">
                 <h1 className="text-white font-comorant text-center text-lg-start">Welcome to Viking Villa Resturent</h1>
-                <p className="text-white font-josefin text-center text-lg-start">Welcome to a World of Refined Hospitality, Where Unmatched Service Meets Unparalleled Comfort</p>
+                <p className="text-white font-josefin text-center text-lg-start px-0 px-md-5 px-lg-0">Welcome to a World of Refined Hospitality, Where Unmatched Service Meets Unparalleled Comfort</p>
             </div>
             <div className="col-12 col-lg-6 d-none d-lg-flex justify-content-end position-relative">
                 <Image
