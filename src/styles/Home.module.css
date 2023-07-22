@@ -146,8 +146,50 @@
 }
 
 
-
-
+.servicesSec{
+  background-color: #292E36 !important;
+  color: #fff;
+}
+.servicesSec h4{
+  font-family: var(--font-josefin) !important;
+  text-transform: uppercase;
+  letter-spacing: 3.704px;
+  text-decoration: underline;
+  position: relative;
+  text-underline-offset: 5px;
+  text-decoration-color: #E1B168;
+  font-size: 15px;
+  width: max-content;
+}
+.servicesSec h4::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #E1B168;
+}
+.servicesSec h3{
+  font-family: var(--font-cormorant) !important;
+  font-size: 36px;
+}
+.servicesSec span{
+  font-family: var(--font-cormorant) !important;
+  font-size: 20px;
+}
+.servicesSec p{
+  font-family: var(--font-josefin) !important;
+}
+.outer_box{
+  background-color: #323841;
+}
+.inner_box{
+  background-color: #292E36;
+}
+.inner_box img{
+  height: 50px !important;
+  width: auto !important;
+}
 
 @media screen and (max-width: 992px) {
   .checkCard {
