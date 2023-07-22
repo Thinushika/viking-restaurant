@@ -7,12 +7,12 @@ const OurServices = () => {
         <>
             <div className={`d-flex flex-column px-2 px-lg-5 ${styles.servicesSec} py-5`}>
                 <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 py-0 py-lg-5">
-                    <div className="col-12 col-lg-5">
+                    <div className="col-12 col-lg-4 text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start justify-content-lg-center">
                         <h4>What we offer</h4>
                         <h3>Our Great Services</h3>
                         <p>Lorem Ipsum is that it has a more-or-less normal distribution content making it look like readable English. </p>
                     </div>
-                    <div className={`col-12 col-lg-7 d-flex flex-column flex-md-row justify-content-center align-items-center`}>
+                    <div className={`col-12 col-lg-8 d-flex flex-column flex-md-row justify-content-center align-items-center`}>
                         <div className={`col-8 col-md-4 p-2 d-flex justify-content-center`}>
                             <div className={`p-4 ${styles.outer_box} `}>
                                 <div className={`d-flex flex-column justify-content-center align-items-center text-center p-4 ${styles.inner_box}`}>
