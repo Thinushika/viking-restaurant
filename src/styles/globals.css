@@ -82,3 +82,11 @@ a {
 .hrLine{
   color: #fff;
 }
+.swiper-pagination-bullet{
+  background: #ffffff94 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+.swiper-pagination-bullet .active{
+  background: #ffffffea !important;
+}
