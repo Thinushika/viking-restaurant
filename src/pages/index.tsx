@@ -3,7 +3,8 @@ import Hero from "../components/home_components/Hero/Hero";
 import CheckAvailability from "@/components/home_components/check_availability/CheckAvailability";
 import ContactDetails from "@/components/home_components/contact_details";
 import TheStory from "@/components/home_components/the_story";
-import Descrioption from "@/components/home_components/desc";
+import Descrioption from "@/components/home_components/desc_1";
+import Description2 from "@/components/home_components/desc_2";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <ContactDetails />
         <TheStory />
         <Descrioption />
+        <Description2 />
         </div>
       </main>
     </>
