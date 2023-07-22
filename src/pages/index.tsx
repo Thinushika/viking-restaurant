@@ -6,6 +6,7 @@ import TheStory from "@/components/home_components/the_story";
 import Descrioption from "@/components/home_components/desc_1";
 import Description2 from "@/components/home_components/desc_2";
 import Booking from "@/components/home_components/booking";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {

@@ -4,7 +4,7 @@ import styles from '../../styles/Navbar.module.css'
 
 const SocialMedia = () => {
     return (
-        <div className="d-flex flex-row w-100 justify-content-end">
+        <div className="d-flex flex-row w-100 justify-content-center justify-content-lg-end">
             <Link href="#" className={`${styles.svgLink}  px-2 pe-lg-0 ps-lg-2 `}>
                 <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="Insta">
