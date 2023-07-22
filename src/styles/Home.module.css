@@ -91,15 +91,18 @@
   font-family: var(--font-cormorant) !important;
   font-size: 30px;
   font-weight: 700;
+  color: #555;
 }
 .storySec p{
   font-family: var(--font-josefin) !important;
   font-size: 15px;
+  color: #555;
 }
 .storySec span{
   font-family: var(--font-josefin) !important;
   font-weight: 700;
   font-size: 15px;
+  color: #555;
 }
 .borderRight{
   border-right: solid 1px #313131;
@@ -108,6 +111,35 @@
   width: 100% !important;
   height: auto !important;
 }
+.Descrioption h3 {
+  font-family: var(--font-cormorant) !important;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 40px;
+  width: max-content;
+  color: #555;
+}
+
+.Descrioption h3::after {
+  content: ""; 
+  position: absolute;
+  bottom: -8px; 
+  left: 25%; 
+  width: 50%; 
+  border-bottom: 2px solid #555; 
+}
+.Descrioption p{
+  font-family: var(--font-josefin) !important;
+  font-size: 15px;
+  color: #555;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 992px) {
   .checkCard {

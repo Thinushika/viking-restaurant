@@ -3,6 +3,7 @@ import Hero from "../components/home_components/Hero/Hero";
 import CheckAvailability from "@/components/home_components/check_availability/CheckAvailability";
 import ContactDetails from "@/components/home_components/contact_details";
 import TheStory from "@/components/home_components/the_story";
+import Descrioption from "@/components/home_components/desc";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <CheckAvailability />
         <ContactDetails />
         <TheStory />
+        <Descrioption />
         </div>
       </main>
     </>
