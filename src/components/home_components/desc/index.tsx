@@ -16,7 +16,7 @@ const Descrioption = () => {
                             className={`${styles.imgStory}`}
                         />
                     </div>
-                    <div className={`col-12 col-lg-6 py-5 px-0 px-lg-5 d-flex flex-column justify-content-center ${styles.Descrioption}`}>
+                    <div className={`col-12 col-lg-6 py-5 ps-0 ps-lg-5 d-flex flex-column justify-content-center ${styles.Descrioption}`}>
                         <h3 className="d-flex flex-column">
                             Tour Planning
                         </h3>
@@ -35,7 +35,7 @@ const Descrioption = () => {
                             className={`${styles.imgStory}`}
                         />
                     </div>
-                    <div className={`col-12 col-lg-6 py-5 px-0 px-lg-5 d-flex flex-column justify-content-center ${styles.Descrioption}`}>
+                    <div className={`col-12 col-lg-6 py-5 ps-0 pe-lg-5 d-flex flex-column justify-content-center ${styles.Descrioption}`}>
                         <h3 className="d-flex flex-column">
                         Hire Vehicle
                         </h3>
