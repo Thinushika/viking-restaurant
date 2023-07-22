@@ -5,6 +5,7 @@ import ContactDetails from "@/components/home_components/contact_details";
 import TheStory from "@/components/home_components/the_story";
 import Descrioption from "@/components/home_components/desc_1";
 import Description2 from "@/components/home_components/desc_2";
+import Booking from "@/components/home_components/booking";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <TheStory />
         <Descrioption />
         <Description2 />
+        <Booking />
         </div>
       </main>
     </>

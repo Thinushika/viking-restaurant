@@ -136,8 +136,14 @@
   color: #555;
   text-align: justify;
 }
-
-
+.BookingBg{
+  background: url('/assests/images/bg/Background.png'), lightgray 50% / cover no-repeat;
+  background-position: center;
+}
+.BookingBg .checkCard{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 
 
 
