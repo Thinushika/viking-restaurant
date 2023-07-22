@@ -198,7 +198,7 @@
   background-size: cover;
   background-position: center;
   height: 400px;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 .imgGroup{
@@ -208,9 +208,100 @@
 }
 
 
+.planWrapperImage{
+  background: url('/assests/images/bg/plan.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.planWrapper{
+  background: rgba(36, 35, 35, 0.95);
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.planWrapper h3{
+  font-family: var(--font-bell-regular) !important;
+  font-size: 36px;
+}
+.planWrapper p{
+  font-family: var(--font-josefin) !important;
+}
+.btnAll {
+  text-align: center;
+  font-size: 18.292px;
+  font-family: var(--font-josefin);
+  font-weight: 400;
+  min-width: 200px;
+  max-width: 180px;
+}
+.filledBtn {
+  border: 1.829px solid #B59841;
+  color: #FFF;
+  background: #B59841;
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+.filledBtn:hover {
+  background: transparent;
+  color: #B59841;
+}
+
+.tourWrapperImage{
+  background: url('/assests/images/bg/tour.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  margin-bottom: 180px;
+}
+.tourWrapper{
+  background: rgba(36, 35, 35, 0.95);
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+.tourWrapper h3{
+  font-family: var(--font-bell-regular) !important;
+  font-size: 36px;
+}
+.tourWrapper p{
+  font-family: var(--font-josefin) !important;
+}
+.tourWrapper span{
+  font-family: var(--font-cormorant) !important;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 992px) {
   .checkCard {
     margin-top: 0px;
+  }
+  .planWrapperImage{
+    height: auto;
+    margin-bottom: auto;
+  }
+  .planWrapper{
+    background: rgba(36, 35, 35, 0.73);
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .tourWrapperImage{
+    height: auto;
+    margin-bottom: auto;
+  }
+  .tourWrapper{
+    background: rgba(36, 35, 35, 0.73);
+    position: relative;
+    top: 0px;
+    right: 0px;
   }
 }
 /* Mobile */
@@ -227,7 +318,8 @@
   }
   .imgGroupWrapper{
     height: 350px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
+  
 }
