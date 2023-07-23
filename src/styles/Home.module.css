@@ -193,13 +193,13 @@
 
 
 .imgGroupWrapper{
-  background: url('/assests/images/bg/Background.png');
+  background: url('/assests/images/bg/img_group_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 400px;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .imgGroup{
   width: auto;

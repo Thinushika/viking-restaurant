@@ -5,8 +5,8 @@ import React from 'react'
 const Description2 = () => {
   return (
     <>
-            <div className="d-flex flex-column px-2 px-lg-5">
-                <div className="d-flex flex-column flex-lg-row px-0 px-lg-5">
+            <div className="d-flex flex-column px-2 px-lg-5 py-5">
+                <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 pt-0 pt-lg-5">
                     <div className="col-12 col-lg-6 pb-lg-0">
                         <Image
                             src={"/assests/images/bg/luxury_rooms.png"}
@@ -25,7 +25,7 @@ const Description2 = () => {
                         </p>
                     </div>
                 </div>
-                <div className="d-flex flex-column flex-lg-row-reverse px-0 px-lg-5">
+                <div className="d-flex flex-column flex-lg-row-reverse px-0 px-lg-5 pb-0 pb-lg-5">
                     <div className="col-12 col-lg-6  pt-lg-0">
                         <Image
                             src={"/assests/images/bg/cultural_foods.png"}

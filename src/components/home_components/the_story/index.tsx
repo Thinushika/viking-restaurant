@@ -5,8 +5,8 @@ import Image from "next/image";
 const TheStory = () => {
   return (
     <>
-      <div className="d-flex px-2 px-lg-5">
-        <div className="d-flex flex-column flex-lg-row px-0 px-lg-5">
+      <div className="d-flex px-2 px-lg-5 pb-0 pb-lg-5">
+        <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 py-0 py-lg-5">
           <div
             className={`col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  px-0 px-md-5 ${styles.borderRight}`}
           >

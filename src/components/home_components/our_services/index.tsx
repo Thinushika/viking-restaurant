@@ -17,13 +17,27 @@ const OurServices = () => {
                             <div className={`p-4 ${styles.outer_box} `}>
                                 <div className={`d-flex flex-column justify-content-center align-items-center text-center p-4 ${styles.inner_box}`}>
                                     <Image
+                                        src={"/assests/images/icons/canander.png"}
+                                        alt=""
+                                        width={50}
+                                        height={50}
+                                        className='img-fluid'
+                                    />
+                                    <span className='mt-2'>Opened 24/7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={`col-8 col-md-4 p-2 d-flex justify-content-center`}>
+                            <div className={`p-4 ${styles.outer_box} `}>
+                                <div className={`d-flex flex-column justify-content-center align-items-center text-center p-4 ${styles.inner_box}`}>
+                                    <Image
                                         src={"/assests/images/icons/menu.png"}
                                         alt=""
                                         width={50}
                                         height={50}
                                         className='img-fluid'
                                     />
-                                    <span>Opened 24/7</span>
+                                    <span className='mt-2'>Special Menus</span>
                                 </div>
                             </div>
                         </div>
@@ -37,21 +51,7 @@ const OurServices = () => {
                                         height={50}
                                         className='img-fluid'
                                     />
-                                    <span>Special Menus</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={`col-8 col-md-4 p-2 d-flex justify-content-center`}>
-                            <div className={`p-4 ${styles.outer_box} `}>
-                                <div className={`d-flex flex-column justify-content-center align-items-center text-center p-4 ${styles.inner_box}`}>
-                                    <Image
-                                        src={"/assests/images/icons/canander.png"}
-                                        alt=""
-                                        width={50}
-                                        height={50}
-                                        className='img-fluid'
-                                    />
-                                    <span>Trip Planning</span>
+                                    <span className='mt-2'>Trip Planning</span>
                                 </div>
                             </div>
                         </div>
