@@ -209,13 +209,13 @@
 
 
 .planWrapperImage{
-  background: url('/assests/images/bg/plan.png');
+  background: url('/assests/images/bg/large-herd-african-elephants-walking-dusk-generated-by-ai 1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 350px;
+  background-position: center top;
+  height: 400px;
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 .planWrapper{
   background: rgba(36, 35, 35, 0.95);
@@ -256,7 +256,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 350px;
+  height: 400px;
   width: 100%;
   margin-bottom: 180px;
 }
