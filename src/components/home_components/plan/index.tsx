@@ -6,7 +6,7 @@ const PlanTour = () => {
   return (
     <>
       <div className="d-flex flex-column px-0 px-lg-5 pt-5 pb-0 pb-lg-5">
-        <div className="d-flex px-0 px-lg-5">
+        <div className="d-flex px-0 px-lg-5 pb-0 pb-lg-5">
           <div
             className={`d-flex ${styles.planWrapperImage} position-relative`}
           >
