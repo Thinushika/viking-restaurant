@@ -324,6 +324,11 @@
     top: 0px;
     right: 0px;
   }
+  .imgGroupWrapper{
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
 }
 /* Mobile */
 @media screen and (max-width: 600px) {
