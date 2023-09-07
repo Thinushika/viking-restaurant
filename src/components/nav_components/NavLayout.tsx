@@ -30,7 +30,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
     {
       id: 3,
       title: 'About',
-      link: '/'
+      link: '/about-us'
     },
     {
       id: 4,
