@@ -383,6 +383,51 @@
   border-top: 1px solid #E1B168;
 }
 
+.section_subtitle{
+  font-family: var(--font-josefin) !important;
+  text-transform: uppercase;
+  letter-spacing: 3.704px;
+  text-decoration: underline;
+  position: relative;
+  text-underline-offset: 8px;
+  color: #292E36;
+  font-weight: 700;
+  text-decoration-color: #E1B168;
+  text-decoration-thickness: 1px;
+  font-size: 15px;
+  width: max-content;
+}
+.section_subtitle::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #E1B168;
+}
+.section_title{
+  font-family: var(--font-cormorant) !important;
+  color: #292E36;
+  font-weight: 700;
+  font-size: 30px;
+}
+.team_image{
+  width: 100% !important;
+  height: auto !important;
+}
+.teamname{
+  font-family: var(--font-cormorant) !important;
+  color: #292E36;
+  font-weight: 700;
+  font-size: 27px;
+}
+.teamposition{
+  font-family: var(--font-josefin) !important;
+  color: #292E36;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 @media screen and (max-width: 992px) {
   .checkCard {
     margin-top: 0px;
