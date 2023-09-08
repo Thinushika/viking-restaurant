@@ -427,6 +427,16 @@
   font-weight: 500;
   font-size: 16px;
 }
+.gallery_sec_height{
+  height: 85vh !important;
+  overflow: hidden;
+}
+.column_small{
+  width: 25% !important;
+}
+.column_lg{
+width: 50% !important;
+}
 
 @media screen and (max-width: 992px) {
   .checkCard {
@@ -456,6 +466,16 @@
     height: 400px;
     margin-top: 0px;
     margin-bottom: 50px;
+  }
+  .gallery_sec_height{
+    height: auto !important;
+    overflow: hidden;
+  }
+  .column_small{
+    width: 100% !important;
+  }
+  .column_lg{
+  width: 100% !important;
   }
 }
 /* Mobile */

@@ -12,8 +12,8 @@ const AboutUs = () => {
           <h2 className='my-4'>About Us</h2>
         </div>
         {/* section 2 */}
-        <div className="d-flex px-2 px-lg-5 pb-0 pb-lg-5 pt-lg-5">
-          <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 py-0 py-lg-5">
+        <div className="d-flex px-2 px-lg-5 py-5 pb-lg-5 pt-lg-5">
+          <div className="d-flex flex-column-reverse flex-lg-row px-2 px-lg-5 py-0 py-lg-5">
             <div
               className={`col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center px-0 px-md-5 px-lg-0 ${styles.storySec} px-0 px-lg-5`}
             >
@@ -80,56 +80,106 @@ const AboutUs = () => {
         </div>
         {/* section 3 */}
         {/* section 4 */}
-        <div className="d-flex flex-column justify-content-center align-items-center p-5 m-0 w-100">
-          <div className="d-flex flex-column justify-content-center align-items-center p-5 m-0 w-100">
-          <p className={`${styles.section_subtitle}`}>TEAM</p>
-          <h3 className={`${styles.section_title} mb-4`}>Meet Our Team</h3>
-          <div className="d-flex p-0 m-0 px-5 w-100 text-center">
-            <div className="col-12 col-md-6 col-lg-3 p-2">
-            <Image
-                      src={"/assests/images/team/member (4).png"}
-                      alt=""
-                      width={150}
-                      height={150}
-                      className={`img-fluid ${styles.team_image}`}
-                    />
-                    <h4 className={`${styles.teamname} mb-0 mt-2`}>Avroko</h4>
-                    <p className={`${styles.teamposition} mb-0`}>Master Chef</p>
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 p-2">
-            <Image
-                      src={"/assests/images/team/member (1).png"}
-                      alt=""
-                      width={150}
-                      height={150}
-                      className={`img-fluid ${styles.team_image}`}
-                    />
-                    <h4 className={`${styles.teamname} mb-0 mt-2`}>Evan Mattew</h4>
-                    <p className={`${styles.teamposition} mb-0`}>Master Chef</p>
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 p-2">
-            <Image
-                      src={"/assests/images/team/member (2).png"}
-                      alt=""
-                      width={150}
-                      height={150}
-                      className={`img-fluid ${styles.team_image}`}
-                    />
-                    <h4 className={`${styles.teamname} mb-0 mt-2`}>Diane	Clarkson</h4>
-                    <p className={`${styles.teamposition} mb-0`}>Master Chef</p>
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 p-2">
-            <Image
-                      src={"/assests/images/team/member (3).png"}
-                      alt=""
-                      width={150}
-                      height={150}
-                      className={`img-fluid ${styles.team_image}`}
-                    />
-                    <h4 className={`${styles.teamname} mb-0 mt-2`}>Dan Rafalin</h4>
-                    <p className={`${styles.teamposition} mb-0`}>Assistant Chef</p>
+        <div className="d-flex flex-column justify-content-center align-items-center px-2 px-lg-5 py-5  m-0 w-100">
+          <div className="d-flex flex-column justify-content-center align-items-center p-0 p-lg-5 m-0 w-100">
+            <p className={`${styles.section_subtitle}`}>TEAM</p>
+            <h3 className={`${styles.section_title} mb-4`}>Meet Our Team</h3>
+            <div className="d-flex flex-column flex-lg-row p-0 m-0 px-lg-5 w-100 text-center justify-content-center align-items-center">
+              <div className="col-12 col-md-6 col-lg-3 p-2">
+                <Image
+                  src={"/assests/images/team/member (4).png"}
+                  alt=""
+                  width={150}
+                  height={150}
+                  className={`img-fluid ${styles.team_image}`}
+                />
+                <h4 className={`${styles.teamname} mb-0 mt-2`}>Avroko</h4>
+                <p className={`${styles.teamposition} mb-0`}>Master Chef</p>
+              </div>
+              <div className="col-12 col-md-6 col-lg-3 p-2">
+                <Image
+                  src={"/assests/images/team/member (1).png"}
+                  alt=""
+                  width={150}
+                  height={150}
+                  className={`img-fluid ${styles.team_image}`}
+                />
+                <h4 className={`${styles.teamname} mb-0 mt-2`}>Evan Mattew</h4>
+                <p className={`${styles.teamposition} mb-0`}>Master Chef</p>
+              </div>
+              <div className="col-12 col-md-6 col-lg-3 p-2">
+                <Image
+                  src={"/assests/images/team/member (2).png"}
+                  alt=""
+                  width={150}
+                  height={150}
+                  className={`img-fluid ${styles.team_image}`}
+                />
+                <h4 className={`${styles.teamname} mb-0 mt-2`}>Diane	Clarkson</h4>
+                <p className={`${styles.teamposition} mb-0`}>Master Chef</p>
+              </div>
+              <div className="col-12 col-md-6 col-lg-3 p-2">
+                <Image
+                  src={"/assests/images/team/member (3).png"}
+                  alt=""
+                  width={150}
+                  height={150}
+                  className={`img-fluid ${styles.team_image}`}
+                />
+                <h4 className={`${styles.teamname} mb-0 mt-2`}>Dan Rafalin</h4>
+                <p className={`${styles.teamposition} mb-0`}>Assistant Chef</p>
+              </div>
             </div>
           </div>
+        </div>
+        {/* section 5 */}
+        <div className="d-flex flex-column justify-content-center align-items-center px-2 px-lg-5 py-5 m-0 w-100">
+          <div className="d-flex flex-column justify-content-center align-items-center p-0 p-lg-5 m-0 w-100">
+            <p className={`${styles.section_subtitle}`}>Galary</p>
+            <h3 className={`${styles.section_title} mb-4`}>What We Make</h3>
+            <div className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-5 w-100 text-center`}>
+              <div className={`col-12 col-md-6 col-lg-3 p-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
+              <Image
+                  src={"/assests/images/gallery/1.jpg"}
+                  alt=""
+                  width={200}
+                  height={180}
+                  className={`img-fluid ${styles.team_image} mb-2`}
+                />
+                <Image
+                  src={"/assests/images/gallery/2.jpg"}
+                  alt=""
+                  width={200}
+                  height={180}
+                  className={`img-fluid ${styles.team_image}`}
+                />
+              </div>
+              <div className={`col-12 col-md-6 col-lg-3 p-1 ${styles.gallery_sec_height} ${styles.column_lg}`}>
+              <Image
+                  src={"/assests/images/gallery/6.png"}
+                  alt=""
+                  width={350}
+                  height={300}
+                  className={`img-fluid ${styles.team_image} mb-2`}
+                />
+              </div>
+              <div className={`col-12 col-md-6 col-lg-3 p-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
+              <Image
+                  src={"/assests/images/gallery/4.jpg"}
+                  alt=""
+                  width={200}
+                  height={180}
+                  className={`img-fluid ${styles.team_image} mb-2`}
+                />
+                <Image
+                  src={"/assests/images/gallery/5.jpg"}
+                  alt=""
+                  width={200}
+                  height={180}
+                  className={`img-fluid ${styles.team_image}`}
+                />
+              </div>
+            </div>
           </div>
         </div>
         <Testimonials />
