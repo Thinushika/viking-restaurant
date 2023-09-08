@@ -25,7 +25,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
     {
       id: 2,
       title: 'Plan a Trip',
-      link: '/'
+      link: '/plan-trip'
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
     {
       id: 5,
       title: 'Booking',
-      link: '/#Booking'
+      link: '/booking'
     },
     {
       id: 6,
