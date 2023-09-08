@@ -427,7 +427,7 @@
   font-weight: 500;
   font-size: 16px;
 }
-.gallery_sec_height{
+/* .gallery_sec_height{
   height: 85vh !important;
   overflow: hidden;
 }
@@ -436,7 +436,7 @@
 }
 .column_lg{
 width: 50% !important;
-}
+} */
 
 @media screen and (max-width: 992px) {
   .checkCard {
@@ -467,7 +467,7 @@ width: 50% !important;
     margin-top: 0px;
     margin-bottom: 50px;
   }
-  .gallery_sec_height{
+  /* .gallery_sec_height{
     height: auto !important;
     overflow: hidden;
   }
@@ -476,7 +476,7 @@ width: 50% !important;
   }
   .column_lg{
   width: 100% !important;
-  }
+  } */
 }
 /* Mobile */
 @media screen and (max-width: 600px) {
