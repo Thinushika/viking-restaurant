@@ -165,6 +165,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.Abut_form_sec_Bg{
+  background: url('/assests/images/bg/abt_last_sec_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .BookingBg .checkCard{
   margin-top: 60px;
   margin-bottom: 60px;
@@ -232,6 +238,59 @@
   height: 50px !important;
   width: auto !important;
 }
+
+
+.booking_form{
+  background-color: #292e36c5 !important;
+  color: #fff;
+}
+.booking_form h4{
+  font-family: var(--font-josefin) !important;
+  text-transform: uppercase;
+  letter-spacing: 3.704px;
+  text-decoration: underline;
+  position: relative;
+  text-underline-offset: 5px;
+  text-decoration-color: #E1B168;
+  font-size: 15px;
+  width: max-content;
+}
+.booking_form h4::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #E1B168;
+}
+.booking_form h3{
+  color: #fff;
+  font-family: var(--font-cormorant) !important;
+  font-size: 36px;
+}
+.booking_form{
+  color: #fff;
+  font-family: var(--font-josefin) !important;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.booking_form input{
+  background-color: transparent;
+  border: solid 1px #858585;
+  padding: 10px;
+  width: 100%;
+}
+.booking_form button{
+  color: #242323;
+  background-color: #fff;
+  border: solid 1px #fff;
+  padding: 10px;
+  min-width: 200px;
+  transition: background-color 0.3ms;
+}
+
+
 
 
 .imgGroupWrapper{
