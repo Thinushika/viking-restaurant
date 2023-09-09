@@ -159,11 +159,34 @@
   background: url('/assests/images/bg/Background.png'), lightgray 50% / cover no-repeat;
   background-position: center;
 }
+.Abut_sec_3_Bg{
+  background: url('/assests/images/bg/abut_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .BookingBg .checkCard{
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.side_border{
+ border-right: solid 1px #797E89;
+}
 
+
+.services_column h3{
+  font-family: var(--font-cormorant) !important;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.services_column p{
+  font-family: var(--font-josefin) !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
 
 .servicesSec{
   background-color: #292E36 !important;
@@ -363,7 +386,6 @@
 }
 .sec_abut h2{
   font-family: var(--font-cormorant) !important;
-  text-transform: uppercase;
   letter-spacing: 3.704px;
   text-decoration: underline;
   position: relative;
@@ -439,6 +461,9 @@ width: 50% !important;
 } */
 
 @media screen and (max-width: 992px) {
+  .side_border{
+    border: none;
+   }
   .checkCard {
     margin-top: 0px;
   }

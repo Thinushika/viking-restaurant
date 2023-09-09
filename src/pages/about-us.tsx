@@ -2,6 +2,7 @@ import Testimonials from '@/components/home_components/testimonials'
 import React from 'react'
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import BookingSec from '@/components/home_components/check_availability/Booking';
 
 
 const AboutUs = () => {
@@ -79,6 +80,50 @@ const AboutUs = () => {
           </div>
         </div>
         {/* section 3 */}
+        <div className={`d-flex flex-column px-2 px-lg-5 justify-content-center align-items-center ${styles.Abut_sec_3_Bg} py-5`}>
+          <div className="d-flex flex-column flex-lg-row p-0 p-lg-5 w-100">
+            <div className={`col-12 col-lg-3 py-3 d-flex flex-column text-center justify-content-center align-items-center  ${styles.services_column} ${styles.side_border}`}>
+              <Image
+                src={"/assests/images/icons/fresh_products.png"}
+                alt=""
+                width={72}
+                height={72}
+              />
+              <h3 className='mt-2'>Fresh Product</h3>
+              <p className=''>Professional consider everyone <br /> probls small niche friendly.</p>
+            </div>
+            <div className={`col-12 col-lg-3 py-3 d-flex flex-column text-center justify-content-center align-items-center  ${styles.services_column} ${styles.side_border}`}>
+              <Image
+                src={"/assests/images/icons/skilled_chefs.png"}
+                alt=""
+                width={72}
+                height={72}
+              />
+              <h3 className='mt-2'>Skilled Chefs</h3>
+              <p className=''>Professional consider everyone <br /> probls small niche friendly.</p>
+            </div>
+            <div className={`col-12 col-lg-3 py-3 d-flex flex-column text-center justify-content-center align-items-center  ${styles.services_column} ${styles.side_border}`}>
+              <Image
+                src={"/assests/images/icons/drinks_juices.png"}
+                alt=""
+                width={72}
+                height={72}
+              />
+              <h3 className='mt-2'>Drinks & Juices</h3>
+              <p className=''>Professional consider everyone <br /> probls small niche friendly.</p>
+            </div>
+            <div className={`col-12 col-lg-3 py-3 d-flex flex-column text-center justify-content-center align-items-center  ${styles.services_column}`}>
+              <Image
+                src={"/assests/images/icons/vegan_cuisine.png"}
+                alt=""
+                width={72}
+                height={72}
+              />
+              <h3 className='mt-2'>Vegan Cuisine</h3>
+              <p className=''>Professional consider everyone <br /> probls small niche friendly.</p>
+            </div>
+          </div>
+        </div>
         {/* section 4 */}
         <div className="d-flex flex-column justify-content-center align-items-center px-2 px-lg-5 py-5  m-0 w-100">
           <div className="d-flex flex-column justify-content-center align-items-center p-0 p-lg-5 m-0 w-100">
@@ -139,7 +184,7 @@ const AboutUs = () => {
             <h3 className={`${styles.section_title} mb-4`}>What We Make</h3>
             <div className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-2 w-100 text-center`}>
               <div className={`col-12 col-md-6 col-lg-3 pe-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
-              <Image
+                <Image
                   src={"/assests/images/gallery/1.jpg"}
                   alt=""
                   width={200}
@@ -155,7 +200,7 @@ const AboutUs = () => {
                 />
               </div>
               <div className={`col-12 col-md-6 col-lg-6 p-1 ${styles.gallery_sec_height} ${styles.column_lg}`}>
-              <Image
+                <Image
                   src={"/assests/images/gallery/cropped.png"}
                   alt=""
                   width={350}
@@ -164,7 +209,7 @@ const AboutUs = () => {
                 />
               </div>
               <div className={`col-12 col-md-6 col-lg-3 ps-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
-              <Image
+                <Image
                   src={"/assests/images/gallery/4.jpg"}
                   alt=""
                   width={200}
