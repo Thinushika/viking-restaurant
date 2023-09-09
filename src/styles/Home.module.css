@@ -503,6 +503,60 @@
   font-weight: 700;
   font-size: 30px;
 }
+.section_para{
+  font-family: var(--font-josefin) !important;
+  color: #292E36;
+  font-weight: 400;
+  font-size: 16px;
+}
+.btnAll {
+  text-align: center;
+  font-size: 18.292px;
+  font-family: var(--font-josefin);
+  font-weight: 400;
+  min-width: 180px;
+  max-width: 180px;
+}
+.btnAll_plan {
+    text-align: center;
+    font-size: 18.292px;
+    font-family: var(--font-josefin);
+    font-weight: 400;
+    min-width: 180px;
+    max-width: 250px;
+}
+.filledBtn_plan {
+  border: 1.829px solid var(--color-gold);
+  color: #292E36;
+  background: var(--color-gold);
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+.filledBtn_plan:hover {
+  background: transparent;
+  color: #292E36;
+}
+.img_plan{
+  position: absolute;
+  width: 450px;
+  height: auto;
+}
+
+.sec_plan_2{
+  background-color: #292E36;
+}
+.sec_plan_2 h2{
+  font-family: var(--font-cormorant) !important;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.sec_plan_2 p{
+  font-family: var(--font-josefin) !important;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
 .team_image{
   width: 100% !important;
   height: auto !important;
@@ -534,6 +588,11 @@ width: 50% !important;
   .side_border{
     border: none;
    }
+   .img_plan{
+    position: relative;
+    width: 340px;
+    height: auto;
+  }
   .checkCard {
     margin-top: 0px;
   }
