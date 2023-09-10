@@ -34,21 +34,11 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
     },
     {
       id: 4,
-      title: 'Menu',
-      link: '/'
-    },
-    {
-      id: 5,
       title: 'Booking',
       link: '/booking'
     },
     {
-      id: 6,
-      title: 'Gallery',
-      link: '/'
-    },
-    {
-      id: 7,
+      id: 5,
       title: 'Contact',
       link: '/'
     }
