@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
       <hr className="hrLine" />
       <div className="d-flex flex-column text-center text-white font-josefin">
-        <p>© Copyright OrionUX(Pvt)Ltd</p>
+        <p>© Copyright SLViking Villa</p>
       </div>
 
     </div>

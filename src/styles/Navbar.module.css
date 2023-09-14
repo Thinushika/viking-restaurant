@@ -54,7 +54,12 @@
 .navLink:hover{
     color: var(--color-gold);
 }
-
+.navLink:focus{
+    color: var(--color-gold);
+}
+.navLink:active{
+    color: var(--color-gold);
+}
 .svgLink svg path{
     fill: #DEDEDE !important;
     transition: fill 0.5s ease-in;

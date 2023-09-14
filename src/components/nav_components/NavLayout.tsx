@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ActiveNav from "./ActiveNav";
+// import ActiveNav from "./ActiveNav";
 import Link from "next/link";
 import Image from "next/image";
 import styles from '../../styles/Navbar.module.css'
@@ -89,7 +89,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
                     <SocialMedia />
                   </div>
                 </div>
-                <ActiveNav />
+                {/* <ActiveNav /> */}
                 {children}
               </>
             ) : null}
@@ -109,7 +109,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
             </div>
           </div>
         </nav>
-        <ActiveNav />
+        {/* <ActiveNav /> */}
 
         {children}
       </div>
